@@ -9,7 +9,7 @@ private:
 	T* _tab;
 
 public:
-	Array() : _size(0), _tab(new T()) {}
+	Array() : _size(0), _tab(new T[0]) {}
 
 	Array(unsigned int n) : _size(n), _tab(new T[n]) {}
 
